@@ -18,6 +18,7 @@ public class TimingMeasureToolService{
 
 	public static Stopwatch executionTimeforMethod(Stopwatch timer) {
 		try{
+			System.out.println(timer);
 			timer.stop();
 		}
 		catch(Exception e){

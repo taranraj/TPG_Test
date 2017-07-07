@@ -27,8 +27,6 @@ public class IPValidationRegex {
       }
     
     public static void main(String a[]){
-    	Stopwatch timer = new Stopwatch();
-    	System.out.println("Time start for the method : "+timer.start());
     	File f = null;
     	BufferedReader b = null;
     	try {
@@ -50,6 +48,5 @@ public class IPValidationRegex {
 				e.printStackTrace();
 			}
     	}
-    	System.out.println("Timer stop for the method : "+timer.stop());
     }
 }
